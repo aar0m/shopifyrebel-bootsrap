@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'MADE Outer Sans';
+    src: url('fonts/MADE-Outer-Sans-Alt-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Shopify Sans';
+    src: url('fonts/Shopify-Sans-Web.ttf') format('truetype');
+}
+
+h1 {
+    font-family: "MADE Outer Sans";
+    opacity: 1 !important;
+}
+
+a, p {
+    font-family: "Shopify Sans";
+    font-weight: 100;
+}
+
+a:hover {
+    color: white !important;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+i:hover {
+    color:#98eb00 !important;
+}
+
+ul.nav a:hover {
+    background-color: black !important;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/PACK_02_FULL_JPG.jpg);
+    background-size: cover;
+    height: 75vh;
+    background-position-x: 60%;
+    background-position-y: 50%;
+}
